@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Header styles */
+
+.banner {
+    background-image: url("../images/banner/banner2.png");
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    height: 810px;
+    text-align: right;
+
+}
+
+.banner-info {
+
+    padding: 215px 230px 360px 845px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    margin-bottom: 25px;
+}
+
+.banner-description {
+    color: #444343;
+    margin-bottom: 25px;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #F15B22;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 5px;
+}
+
+/* Failure section styles */
+
+section {
+    margin-top: 130px;
+}
+
+.failure-container {
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    margin-left: 210px;
+    margin-right: 320px;
+    width: 1170px;
+}
+
+.title-container {
+    /* padding-right: 320px; */
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 10px;
+}
+
+.section-description {
+    color: #444343;
+}
+
+.section-description p {
+    margin-bottom: 10px;
+}
+
+/* plan section styles */
+
+.plan-section {
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plan-container {
+    display: flex;
+    gap: 90px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
